@@ -1,0 +1,4 @@
+# 2.12 Zen of Python
+
+# use the command import this to output "The Zen of Python" by Tim Peters
+import this

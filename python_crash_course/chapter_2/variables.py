@@ -5,10 +5,8 @@ print(message)
 hipython = "Hello Python Crash Course world!"
 print(message)
 
-print(mesage)
-
-mesage = "Hello Python Crash Course reader!"
-print(mesage)
+message = "Hello Python Crash Course reader!"
+print(message)
 # variables are labels
 # variables can be changed
 

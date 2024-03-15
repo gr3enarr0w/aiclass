@@ -1,4 +1,8 @@
+
+#define the variable message with a sentence
 message = "One of Python's strengths is its diverse community"
+
+# print the variable
 print(message)
 # because a comma is used in the sentence a double quote is needed
 # message = 'One of Python's strengths is its diverse community'
