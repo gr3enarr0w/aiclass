@@ -77,4 +77,36 @@ print(domain_no_end)
 print(my_website)
 
 
+# integers allow for multiplication, addition, subtraction and division
+# to the power of can be done with ** where as multiplication is *
+# Python uses PEMDAS (order of operations)
+print((2+2)*3+1-4+2**2)
 
+#any number with a decimal point is called a float
+print(3/2)
+# 3 and 2 are integers and the output, 1.5 is a float
+# sometimes you will get an arbitrary number of decimals
+print(0.2+0.1)
+# the output of this is 0.30000000000000004
+# division is always output as a float
+print(3/3)
+# answer is 1.0 not 1
+# also mixing a integer and a float gives a float as well
+print(1+5.0)
+# you get 6.0 not 6
+
+# underscores work in integers to make them more easibly readable like , in english. this works for integers and floats
+print(1_000_000_000)
+# output is 1000000000
+
+universe_age = 14_000_000_000
+print(universe_age)
+
+# can assign multiple variables at once
+variable_a, variable_b, variable_c = 1,2,3
+print(variable_a)
+
+# python doesn't have a for sure way to guarentee a constant but programmers generally use ALL_CAPS to indicate such
+MAX_CONNECTIONS = 5000
+# MAX_CONNECTIONS would indicate to others reading my code to not change the value later as it's all caps
+# comments are represented by hashes (#) they are ways to exclude code or make notes. They are ignored when code runs
