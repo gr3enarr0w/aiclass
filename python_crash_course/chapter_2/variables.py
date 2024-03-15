@@ -36,3 +36,45 @@ print(full_name)
 # f is for format and these are called f-strings
 print(full_name.title())
 # methods work on f-strings too
+
+print(f"Hello,{full_name.title()}!")
+
+first_name = "ada"
+last_name = "lovelace"
+full_name = f"{first_name} {last_name}"
+message = (f"Hello, {full_name.title()}")
+print(message)
+
+print("Python")
+print("\tPython")
+# \t inside a parenthesis of a string before the word adds a tab to the output
+
+print("Languages:\nPython\nC\nJavaScript")
+# Adding a \n 
+
+print("Language\tEnglish\t\nSpanish\nJapanese\tChinese")
+
+# white space can be removed but it requires a method
+favorite_language = 'python '
+print(favorite_language)
+
+# .rstrip() removes whitespace if space is on right side and .lstrip() if space is on left and .strip() for both
+print(favorite_language.rstrip())
+
+# To associate the strip permanently a new variable is needed
+new_favorite = favorite_language.rstrip()
+
+#prefixes can be removed .removeprefix('thing_to_remove) see example
+my_website = 'https://clarkeverson.com'
+my_website.removeprefix('https://')
+print(my_website.removeprefix('https://'))
+user_website = my_website.removeprefix('https://')
+
+# Same can be done with suffixes
+domain_no_end = user_website.removesuffix('.com')
+print(domain_no_end)
+#the original string is unchanged hence my new variable
+print(my_website)
+
+
+
